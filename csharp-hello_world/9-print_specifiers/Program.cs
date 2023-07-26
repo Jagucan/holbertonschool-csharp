@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _9_print_specifiers
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _10_copy_cut_paste
 {
     class Program
     {

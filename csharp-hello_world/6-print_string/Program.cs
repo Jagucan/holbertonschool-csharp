@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _6_print_string
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string str = "Holberton School";
+            Console.WriteLine(str);
         }
     }
 }

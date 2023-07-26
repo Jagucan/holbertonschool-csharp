@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _8_print_variables
 {
     class Program
     {

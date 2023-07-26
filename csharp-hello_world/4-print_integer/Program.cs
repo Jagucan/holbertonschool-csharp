@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _4_print_integer
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number = 972;
+            Console.WriteLine(number);
         }
     }
 }

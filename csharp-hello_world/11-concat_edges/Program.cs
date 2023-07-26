@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _2_new_project
+namespace _11_concat_edges
 {
     class Program
     {
