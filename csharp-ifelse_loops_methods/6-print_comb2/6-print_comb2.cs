@@ -7,26 +7,17 @@ namespace _6_print_comb2
         static void Main(string[] args)
         {
             int nums = 0;
-            string output = "";
-
-            for (int firstDigit = 0; firstDigit <= 9; firstDigit++)
-            {
-                for (int secondDigit = firstDigit + 1; secondDigit <= 9; secondDigit++)
-                {
+            for (int firstDigit = 0; firstDigit <= 9; firstDigit++) {
+                for (int secondDigit = firstDigit + 1; secondDigit <= 9; secondDigit++) {
                     nums = firstDigit * 10 + secondDigit;
-                    if (nums < 89)
-                    {
-                        output += $"{nums:D2}, ";
+                    if (nums < 89) {
+                        Console.Write("{0:D2}, ", nums);
                     }
-                    else
-                    {
-                        output += $"{nums:D2}";
-                        break;
+                    else {
+                        Console.WriteLine(nums);
                     }
                 }
             }
-
-            Console.Write(output);
         }
     }
 }
