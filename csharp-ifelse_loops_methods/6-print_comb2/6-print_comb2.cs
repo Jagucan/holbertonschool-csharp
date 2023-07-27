@@ -15,6 +15,7 @@ namespace _6_print_comb2
                     }
                     else {
                         Console.Write(nums);
+                        break;
                     }
                 }
             }
