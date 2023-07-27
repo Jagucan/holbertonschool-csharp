@@ -6,7 +6,7 @@ namespace _4_print_hexa {
             for (int num = 0; num <= 98; num++) {
                 Console.Write("{0:D2}, ", num);
             }
-            Console.Write("99");
+            Console.WriteLine("99");
         }
     }
 }
