@@ -14,7 +14,7 @@ namespace _6_print_comb2
                         Console.Write("{0:D2}, ", nums);
                     }
                     else {
-                        Console.Write("{0:D2}", nums);
+                        Console.Write(nums);
                     }
                 }
             }
