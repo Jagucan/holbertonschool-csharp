@@ -2,7 +2,7 @@
 
 namespace _0_print_array
 {
-    class Array
+    public class Array
     {
         public static int[] CreatePrint(int size)
         {
