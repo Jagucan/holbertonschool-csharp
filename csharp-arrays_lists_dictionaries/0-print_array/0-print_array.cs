@@ -4,6 +4,7 @@ class Array
 {
 	public static int[] CreatePrint(int size)
 	{
+		
 		if (size == 0)
 		{
 			Console.WriteLine();
@@ -11,7 +12,7 @@ class Array
 		}
 		else if (size < 0)
 		{
-			Console.Write("Size cannot be negative");
+			Console.WriteLine("Size cannot be negative");
 			return null;
 		}
 		else
@@ -21,7 +22,14 @@ class Array
 			for (int num = 0; num < size; num++)
 			{
 				myArray[num] = num;
-				Console.Write("{0} ", myArray[num]);
+				if (num < size -1)
+				{
+					Console.Write("{0} ", myArray[num]);
+				}
+				else
+				{
+					Console.Write("{0}", myArray[num]);
+				}
 			}
 			Console.WriteLine();
 			return myArray;
