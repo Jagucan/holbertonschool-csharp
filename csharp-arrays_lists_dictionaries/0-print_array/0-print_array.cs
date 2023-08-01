@@ -6,25 +6,30 @@ class Array
 	{
 		int[] myArray = new int[size];
 
+		if (size < 0)
+		{
+			Console.Write("Size cannot be negative");
+			return null;
+		}
+
 		if (size == 0)
 		{
 			Console.WriteLine();
 			return myArray;
 		}
-		else if (size < 0)
+		
+		for (int num = 0; num < size; num++)
 		{
-			Console.Write("Size cannot be negative");
-			return null;
-		}
-		else
-		{
-			for (int num = 0; num < size; num++)
+			myArray[num] = num;
+			if (num < size - 1)
 			{
-				myArray[num] = num;
 				Console.Write("{0} ", myArray[num]);
 			}
-			Console.WriteLine();
-			return myArray;
+			else
+			{
+				Console.WriteLine(myArray[num]);
+			}
 		}
+		return myArray;
 	}
 }
