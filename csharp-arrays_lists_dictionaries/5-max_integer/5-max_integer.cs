@@ -23,6 +23,13 @@ class List
 					maxNum = num;
 				}
 		}
-		return maxNum;
+		if (num < 0)
+		{
+			return -1;
+		}
+		else
+		{
+			return maxNum;
+		}
 	}
 }
