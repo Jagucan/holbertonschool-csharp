@@ -8,6 +8,7 @@ class List
 		if (myList == null)
 		{
 			Console.WriteLine("List is empty");
+			return -1;
 		}
 		int num = 0;
 		int maxNum = 0;
