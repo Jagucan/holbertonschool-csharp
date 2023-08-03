@@ -8,18 +8,21 @@ class Dictionary
 		string best = "";
 		int bestScore = 0;
 
-		if (myList == null)
+		if (myList == null || myList.Count < 0)
 		{
-            return "None";
+            return null;
         }
-
-		foreach (KeyValuePair<string, int> pair in myList)
-        {
-			if (pair.Value > bestScore)
-            {
-                best = pair.Key;
-                bestScore = pair.Value;
-            }
+		else
+		{
+			foreach (KeyValuePair<string, int> pair in myList)
+			{
+				if (pair.Value > bestScore)
+				{
+					best = pair.Key;
+					bestScore = pair.Value;
+				}
+				
+			}
 		}
 		return best;
 	}
