@@ -26,11 +26,6 @@ class MyStack
                 {
                     currentItem = aStack.Pop();
                 } while (currentItem != search && aStack.Count > 0);
-
-                while (tempStack.Count > 0)
-                {
-                    aStack.Push(tempStack.Pop());
-                }
             }
 
             aStack.Push(newItem);
