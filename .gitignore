@@ -2,3 +2,5 @@ obj/
 bin/
 script.sh
 *main.cs
+*.sln
+*.json
