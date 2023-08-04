@@ -5,7 +5,7 @@ class MyStack
 {
     public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
     {
-        if (aStack.Count == 0 || aStack == null)
+        if (aStack == null)
         {
             Console.WriteLine("Stack is empty");
         }
