@@ -22,7 +22,7 @@ class MyQueue
 		else
         {
             Console.WriteLine("Number of items: {0}", aQueue.Count);
-            Console.WriteLine("Top item: {0}", aQueue.Peek());
+            Console.WriteLine("First item: {0}", aQueue.Peek());
 
             bool containsSearch = aQueue.Contains(search);
             Console.WriteLine("Queue contains \"{0}\": {1}", search, containsSearch);
