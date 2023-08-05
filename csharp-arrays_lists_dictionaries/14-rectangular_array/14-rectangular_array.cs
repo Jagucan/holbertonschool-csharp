@@ -20,7 +20,7 @@ public class Program
         {
             for (int column = 0; column < 5; column++)
             {
-                if (array[row, column] < 50)
+                if (column < 4 && row < 5)
                 {
                     Console.Write(array[row, column] + " ");
                 }
