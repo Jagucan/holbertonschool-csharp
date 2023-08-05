@@ -20,7 +20,15 @@ public class Program
         {
             for (int column = 0; column < 5; column++)
             {
-                Console.Write(array[row, column] + " ");
+                if (array[row, column] < 50)
+                {
+                    Console.Write(array[row, column] + " ");
+                }
+                else
+                {
+                    Console.Write(array[row, column] + "");
+                }
+                
             }
             Console.WriteLine();
         }
