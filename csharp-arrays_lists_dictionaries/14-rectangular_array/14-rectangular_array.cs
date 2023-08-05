@@ -15,7 +15,6 @@ public class Program
         }
 
         array[2, 2] = 1;
-        Console.WriteLine("2D Array:");
     
         for (int row = 0; row < 5; row++)
         {
