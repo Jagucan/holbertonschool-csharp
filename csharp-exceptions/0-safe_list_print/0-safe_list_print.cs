@@ -7,12 +7,19 @@ class List
     {
         int nums = 0;
 
-        for (int i = 0; i < myList.Count && nums < n; i++)
+        try
         {
-            Console.WriteLine(myList[i]);
-            nums++;
+            for (int i = 0; i < myList.Count && nums < n; i++)
+            {
+                Console.WriteLine(myList[i]);
+                nums++;
+            }
         }
-        
+        catch (System.Exception)
+        {
+            
+            throw;
+        }
         return nums;
     }
 }
