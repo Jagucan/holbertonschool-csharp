@@ -24,7 +24,7 @@ class Int
             }
             else
             {
-                Console.Write("{0} / {1} = 0", a, b);
+                Console.WriteLine("{0} / {1} = 0", a, b);
             }
         }
     }
