@@ -25,7 +25,7 @@ struct Dog
     public override string ToString()
     {
         string formattedAge = age.ToString("0.0", CultureInfo.InvariantCulture);
-        return string.Format("Dog Name: {0}\nAge: {1}\nOwner: {2}\nRating: {3}\n", name, formattedAge, owner, rating);
+        return string.Format("Dog Name: {0}\nAge: {1}\nOwner: {2}\nRating: {3}\n" + "\n", name, formattedAge, owner, rating);
     }
 }
 
