@@ -4,3 +4,4 @@ script.sh
 *main.cs
 *.sln
 *.json
+.vscode
