@@ -7,3 +7,4 @@ script.sh
 obj/
 .gitignore
 !obj/Debug/netcoreapp2.1/*.xml
+dotnet
