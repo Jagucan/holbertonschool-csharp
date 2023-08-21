@@ -2,5 +2,10 @@
 
 namespace Enemies
 {
-    public class Zombie {}
+    /// <summary>
+    /// This class represents a Zombie type enemy.
+    /// </summary>
+    public class Zombie
+    {
+    }
 }
