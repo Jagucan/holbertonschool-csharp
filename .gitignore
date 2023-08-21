@@ -1,7 +1,9 @@
-obj/
 bin/
 script.sh
 *main.cs
 *.sln
 *.json
 .vscode
+obj/
+.gitignore
+!obj/Debug/netcoreapp2.1/*.xml
