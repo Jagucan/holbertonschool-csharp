@@ -5,6 +5,4 @@ script.sh
 *.json
 .vscode
 obj/
-.gitignore
-!obj/Debug/netcoreapp2.1/*.xml
 dotnet
