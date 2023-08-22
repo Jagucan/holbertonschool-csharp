@@ -50,7 +50,7 @@ namespace MyMath.Tests
             };
 
             int[,] result4;
-            result4 = Matrix.Divide(matrix1, 10);
+            result4 = Matrix.Divide(matrix1, -2);
         }
     }
 }
