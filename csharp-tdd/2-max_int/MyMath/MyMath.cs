@@ -11,18 +11,16 @@ namespace MyMath
             {
                 return 0;
             }
-            int num = 0;
-            int maxNum = 0;
-            int contList = nums.Count;
+            int maxNum = nums[0];
 
-            for (int item = 0; item < contList; item++)
+            for (int item = 1; item < nums.Count; item++)
             {
-                    num = nums[item];
+                int num = nums[item];
 
-                    if (maxNum < num)
-                    {
-                        maxNum = num;
-                    }
+                if (maxNum < num)
+                {
+                    maxNum = num;
+                }
             }
             return maxNum;
         }
