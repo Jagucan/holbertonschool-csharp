@@ -30,6 +30,10 @@ namespace MyMath.Tests
             List<int> myList4 = new List<int>() {0};
             int maxNum4 = Operations.Max(myList4);
             Assert.AreEqual(0, maxNum4);
+
+            List<int> myList5 = new List<int>() {-10, -1024, -727, -98, -3200, -972, -12, -50, -8};
+            int maxNum5 = Operations.Max(myList5);
+            Assert.AreEqual(0, maxNum5);
         }
     }
 }

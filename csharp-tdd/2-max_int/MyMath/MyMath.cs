@@ -24,14 +24,7 @@ namespace MyMath
                         maxNum = num;
                     }
             }
-            if (num < 0)
-            {
-                return 0;
-            }
-            else
-            {
-                return maxNum;
-            }
+            return maxNum;
         }
     }
 }
