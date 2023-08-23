@@ -65,7 +65,15 @@ namespace MyMath.Tests
             };
 
             int[,] result = Matrix.Divide(matrix, -2);
-            
+            Assert.AreEqual(3, result[1, 2]);
+        }
+
+        [Test]
+        public void TestDivideNull()
+        {
+            int[,] matrix = null;
+            int[,] result = Matrix.Divide(matrix, 2);
+            Assert.IsNull(result);            
         }
     }
 }
