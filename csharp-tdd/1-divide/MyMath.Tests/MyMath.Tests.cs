@@ -51,6 +51,7 @@ namespace MyMath.Tests
             };
 
             int[,] result = Matrix.Divide(matrix, 2);
+            Assert.AreEqual(0, result[0, 0]);
         }
 
         [Test]
@@ -64,6 +65,7 @@ namespace MyMath.Tests
             };
 
             int[,] result = Matrix.Divide(matrix, -2);
+            
         }
     }
 }
