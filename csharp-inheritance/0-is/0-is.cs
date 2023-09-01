@@ -2,7 +2,7 @@
 
 namespace _0_is
 {
-    class Obj
+    public class Obj
     {
         public static bool IsOfTypeInt(object obj)
         {
