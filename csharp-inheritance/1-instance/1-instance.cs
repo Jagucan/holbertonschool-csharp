@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace _1_instance
-{
+
     class Obj
     {
         public static bool IsInstanceOfArray(object obj)
@@ -9,4 +8,3 @@ namespace _1_instance
             return obj is Array;
         }
     }
-}

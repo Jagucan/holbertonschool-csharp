@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace _0_is
+public class Obj
 {
-    public class Obj
+    public static bool IsOfTypeInt(object obj)
     {
-        public static bool IsOfTypeInt(object obj)
-        {
-            return obj is int;
-        }
+        return obj is int;
     }
 }
