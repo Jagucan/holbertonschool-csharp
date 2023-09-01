@@ -1,7 +1,5 @@
 ﻿using System;
 
-using System;
-
 public class Shape
 {
     public virtual int Area()
