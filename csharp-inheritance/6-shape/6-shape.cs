@@ -41,6 +41,13 @@ public class Rectangle : Shape
 
     public override int Area()
     {
-        return width * height;
+        if (width > 0 && height > 0)
+        {
+            return width * height;
+        }
+        else
+        {
+            throw new NotImplementedException("Area() is not implemented");
+        }
     }
 }
