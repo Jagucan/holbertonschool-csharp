@@ -6,7 +6,7 @@ class VectorMath
     {
         int dimension = vector.Length;
 
-        if (dimension != 2 || dimension != 3)
+        if (dimension != 2 && dimension != 3)
         {
             double[] result = new double[1];
             result[0] = -1;
