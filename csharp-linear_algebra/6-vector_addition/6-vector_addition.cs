@@ -9,16 +9,16 @@ class VectorMath
         
         if ((dimensionV1 != 2 && dimensionV2 != 3) || dimensionV1 != dimensionV2)
         {
-            int[] result = new int[1];
+            double[] result = new double[1];
             result[0] = -1;
             return result;
         }
         else
         {
-            int[] result = new int[dimensionV1];
+            double[] result = new double[dimensionV1];
             for (int i = 0; i < dimensionV1; i++)
             {
-                result[i] = dimensionV1[i] + dimensionV2[i];
+                result[i] = vector1[i] + vector2[i];
             }
             return result;
         }
