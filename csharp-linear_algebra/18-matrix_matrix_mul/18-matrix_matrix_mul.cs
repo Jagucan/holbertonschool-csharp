@@ -15,22 +15,23 @@ class MatrixMath
             result[0, 0] = -1;
             return result;
         }
-
-        double[,] result = new double[rows1, cols2];
-
-        for (int i = 0; i < rows1; i++)
+        else
         {
-            for (int j = 0; j < cols2; j++)
-            {
-                result[i, j] = 0;
+            double[,] result = new double[rows1, cols2];
 
-                for (int k = 0; k < cols1; k++)
+            for (int i = 0; i < rows1; i++)
+            {
+                for (int j = 0; j < cols2; j++)
                 {
-                    result[i, j] += matrix1[i, k] * matrix2[k, j];
+                    result[i, j] = 0;
+
+                    for (int k = 0; k < cols1; k++)
+                    {
+                        result[i, j] += matrix1[i, k] * matrix2[k, j];
+                    }
                 }
             }
+            return result;
         }
-
-        return result;
     }
 }
