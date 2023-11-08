@@ -46,3 +46,8 @@ UpgradeLog.htm
 csharp-generics/0-queue/.vs/0-queue/FileContentIndex/837bb2ec-ad96-4749-91be-ee1a0c319934.vsidx
 *.vsidx
 *.sqlite-journal
+csharp-generics/0-queuee/queue.cs
+csharp-generics/0-queuee/0-queue.sln
+csharp-generics/0-queuee/0-queue.csproj
+csharp-generics/0-queuee/.vs/0-queue/v17/.wsuo
+csharp-generics/0-queuee/.vs/0-queue/v17/.suo

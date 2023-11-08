@@ -1,9 +1,9 @@
 ﻿using System;
 
-public class Queue<T>
+class Queue<T>
 {
-	public string CheckType()
-	{
-		return typeof(T).ToString();
-	}
+    public string CheckType()
+    {
+        return typeof(T).ToString();
+    }
 }
