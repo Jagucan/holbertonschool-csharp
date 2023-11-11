@@ -61,7 +61,7 @@ class Decoration : Base, IInteractive, IBreakable
     public bool isQuestItem { get; set; }
     public int durability { get; set; }
 
-    public Decoration(string name, int durability, bool isQuestItem)
+    public Decoration(string name = null, int durability = 1, bool isQuestItem = false)
     {
         if (name == null)
         {

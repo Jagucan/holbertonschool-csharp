@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Decoration teacup = new Decoration("Teacup", 1, false);
+        Decoration teacup = new Decoration();
 
         Console.WriteLine(teacup.ToString());
 
