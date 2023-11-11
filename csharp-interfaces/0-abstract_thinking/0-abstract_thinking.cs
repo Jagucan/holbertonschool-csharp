@@ -6,6 +6,14 @@ abstract class Base
 
     public override string ToString()
     {
-        return name + " is a " + GetType().Name;
+        if (name == null)
+        {
+            return null;
+        }
+        else
+        {
+            return name + " is a " + GetType().Name;
+        }
+        
     }
 }
