@@ -104,6 +104,7 @@ class Decoration : Base, IInteractive, IBreakable
 
     public void Break()
     {
+        // Break Implementation
         durability--;
 
         if (durability > 0)
