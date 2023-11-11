@@ -2,7 +2,7 @@
 
 abstract class Base
 {
-    public string name;
+    public string name = string.Empty;
 
     public override string ToString()
     {
