@@ -87,7 +87,7 @@ class Decoration : Base, IInteractive, IBreakable
     public void Interact()
     {
         // Interact Implementation
-        if (durability == 0)
+        if (durability <= 0)
         {
             Console.WriteLine($"The {name} has been broken.");
         }
