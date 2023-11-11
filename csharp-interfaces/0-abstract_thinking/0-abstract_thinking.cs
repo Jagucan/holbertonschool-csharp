@@ -8,7 +8,7 @@ abstract class Base
     {
         if (name == null)
         {
-            return null;
+            return "is a " +  GetType().Name;
         }
         else
         {
