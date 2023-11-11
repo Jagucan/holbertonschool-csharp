@@ -37,7 +37,7 @@ interface ICollectable
 
 class Door : Base, IInteractive
 {
-    public Door(string name)
+    public Door(string name = null)
     {
         if (name == null)
         {

@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Door frontDoor = new Door("Front Door");
+        Door trapDoor = new Door();
 
-        Console.WriteLine(frontDoor.ToString());
+        Console.WriteLine(trapDoor.ToString());
 
-        frontDoor.Interact();
+        trapDoor.Interact();
     }
 }
