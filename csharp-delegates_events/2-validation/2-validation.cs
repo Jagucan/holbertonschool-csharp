@@ -44,8 +44,8 @@ public class Player
         }
         else
         {
-            Console.WriteLine($"{name} takes {damage} damage!");
             ValidateHP(hp - damage);
+            Console.WriteLine($"{name} takes {damage} damage!");
         }
     }
 
@@ -58,8 +58,8 @@ public class Player
         }
         else
         {
-            Console.WriteLine($"{name} heals {heal} HP!");
             ValidateHP(hp + heal);
+            Console.WriteLine($"{name} heals {heal} HP!");
         }
     }
 
@@ -69,8 +69,7 @@ public class Player
         {
             hp = 0;
         }
-
-        if (newHp > maxHp) 
+        else if (newHp > maxHp) 
         {
             hp = maxHp;
         }

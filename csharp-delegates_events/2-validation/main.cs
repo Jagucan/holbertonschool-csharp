@@ -4,15 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Player player = new Player("Electric Mouse");
+        Player player = new Player("Fire Fox", 640f);
 
         player.PrintHealth();
 
-        player.TakeDamage(50f);
-
-        player.PrintHealth();
-
-        player.HealDamage(49f);
+        player.TakeDamage(777.77f);
 
         player.PrintHealth();
     }
