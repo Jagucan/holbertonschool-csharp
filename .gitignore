@@ -80,4 +80,4 @@ csharp-interfaces/2-doors/.vs/2-doors/v17/.suo
 csharp-interfaces/2-doors/2-doors.sln
 csharp-interfaces/1-user_interface/1-user_interface.cs
 csharp-interfaces/3-decorations/.vs/3-decorations/v17/.suo
-csharp-interfaces/4-keys/.vs/4-keys/v17/.suo
+*.suo
