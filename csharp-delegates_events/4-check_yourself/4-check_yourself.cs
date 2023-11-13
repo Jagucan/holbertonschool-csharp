@@ -84,6 +84,9 @@ public class Player
         {
             ValidateHP(hp - damage);
             Console.WriteLine($"{name} takes {damage} damage!");
+            
+            // Print the status
+            Console.WriteLine(status);
         }
     }
 
@@ -146,28 +149,29 @@ public class Player
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
         float currentHp = e.currentHp;
+
         if (currentHp == maxHp)
         {
-            status = name + " is in perfect health!";
+            status = $"{name} is in perfect health!";
         }
-        else if (currentHp >= maxHp * 0.5 && currentHp < maxHp)
+        else if (currentHp >= maxHp / 2 && currentHp < maxHp)
         {
-            status = name + " is doing well!";
+            status = $"{name} is doing well!";
         }
-        else if (currentHp >= maxHp * 0.25 && currentHp < maxHp * 0.5)
+        else if (currentHp >= maxHp / 4 && currentHp < maxHp / 2)
         {
-            status = name + " isn't doing too great...";
+            status = $"{name} isn't doing too great...";
         }
-        else if (currentHp > 0 && currentHp < maxHp * 0.25)
+        else if (currentHp > 0 && currentHp < maxHp / 4)
         {
-            status = name + " needs help!";
+            status = $"{name} needs help!";
         }
         else if (currentHp == 0)
         {
-            status = name + " is knocked out!";
+            status = $"{name} is knocked out!";
         }
 
-        // Print the Status
-        Console.WriteLine(status);
+        
     }
 }
+
