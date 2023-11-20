@@ -82,3 +82,5 @@ csharp-interfaces/1-user_interface/1-user_interface.cs
 csharp-interfaces/3-decorations/.vs/3-decorations/v17/.suo
 *.suo
 *.sln
+csharp-text_based_interface/.vs/csharp-text_based_interface/v17/.wsuo
+csharp-text_based_interface/.vs/slnx.sqlite
